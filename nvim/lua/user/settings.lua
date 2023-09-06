@@ -1,0 +1,27 @@
+vim.opt.shiftwidth = 4
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.expandtab = true
+vim.opt.autoindent = true
+vim.opt.smartindent = true
+vim.opt.wrap = false
+vim.opt.breakindent = true -- maintain indent when wrapping indented lines
+vim.opt.number = true
+vim.opt.relativenumber = true   -- :set norelativenumber
+vim.opt.wildmode = 'longest:full,full' -- complete the longest common match, and allow tabbing the results to fully complete them
+vim.opt.completeopt = 'menuone,longest,preview'
+vim.opt.title = true -- tmux show file title
+vim.opt.mouse = 'a' -- enable mouse for all modes
+vim.opt.termguicolors = true
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+vim.opt.splitbelow = true
+vim.opt.splitright = true
+vim.opt.scrolloff = 6
+vim.opt.sidescrolloff = 6
+vim.opt.confirm = true -- ask for confirmation instead of erroring
+vim.opt.undofile = true -- persistent undo
+vim.opt.backup = true -- automatically save a backup file
+vim.opt.backupdir:remove('.') -- keep backups out of the current directory
+vim.opt.signcolumn = 'yes:1' -- Always show sign column, adds padding to buffers
+vim.opt.showmode = false
